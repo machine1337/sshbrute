@@ -2,6 +2,8 @@
 A Simple Script For SSH BruteForce
 ![ssh](https://user-images.githubusercontent.com/82051128/203616721-e0e9d8c1-e6c2-4d32-9eb6-c4816e461918.png)
 
+# Contact:-
+    Telegram:- https://t.me/machine1337
 # Requirements:
       1. Make sure python3 is installed in windows Or in Linux
       2. pip install paramiko
